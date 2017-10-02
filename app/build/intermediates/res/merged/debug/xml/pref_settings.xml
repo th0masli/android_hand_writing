@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <EditTextPreference
+	    android:defaultValue="http://106.75.26.145:5000"
+	    android:key="url"
+	    android:maxLines="1"
+	    android:selectAllOnFocus="true"
+	    android:singleLine="true"
+	    android:title="服务器地址：" />
+         
+	<CheckBoxPreference
+	    android:defaultValue="false"
+	    android:key="offline_mode"
+	    android:summaryOff="联网模式"
+	    android:summaryOn="离线模式"
+	    android:title="离线识别(On/Off)" />
+</PreferenceScreen>

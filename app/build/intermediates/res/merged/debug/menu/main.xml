@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+  <item android:id="@+id/action_connect"
+        android:title="@string/connection"
+        android:showAsAction="never" />
+  <item android:id="@+id/action_disconnect"
+        android:title="@string/disconnection"
+        android:showAsAction="never" />
+  <item android:id="@+id/action_mode_free"
+      android:title="@string/mode_free"
+      android:showAsAction="never" />
+  <item android:id="@+id/action_mode_pigai"
+      android:title="@string/mode_pigai"
+      android:showAsAction="never" />
+  <item android:id="@+id/action_setting"
+        android:title="@string/setting"
+        android:showAsAction="never" />
+</menu>

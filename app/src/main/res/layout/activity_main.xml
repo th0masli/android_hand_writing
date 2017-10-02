@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- 题目详情：网页形式 -->
+    <LinearLayout
+        android:id="@+id/layout_question"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <kr.neolab.samplecode.MathJaxWebView
+            android:id="@+id/result_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="100"
+            />
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#dddddd" />
+
+    <!-- 书写区域 -->
+    <LinearLayout
+        android:id="@+id/layout_writing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <!--title -->
+        <LinearLayout
+            android:id="@+id/layout_writing_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shuxei"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#1D1D1D"
+                android:text="@string/writing_title" />
+        </LinearLayout>
+
+        <!-- 书写区域 -->
+        <!-- 动态添加 -->
+        <LinearLayout
+            android:id="@+id/layout_writing_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <!-- 分隔线 -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#dddddd" />
+
+        <!-- 识别结果 -->
+        <LinearLayout
+            android:id="@+id/layout_recognition_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ziyou_shibie" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#1D1D1D"
+                    android:text="@string/recognition_title" />
+                <!-- 清除按钮 -->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <Button
+                        android:id="@+id/buttonClear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/qingchu" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <kr.neolab.samplecode.MathJaxWebView
+                android:id="@+id/recognition_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="..."
+                android:textColor="#0000AD"
+                android:maxLines="100"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 分隔线 -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#dddddd" />
+
+    <!-- 批改区域 -->
+    <LinearLayout
+        android:id="@+id/layout_pigai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <!--title -->
+        <LinearLayout
+            android:id="@+id/layout_pigai_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pigai" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#1D1D1D"
+                android:text="@string/pigai_title" />
+        </LinearLayout>
+        <!-- 区域 -->
+        <!-- 动态调整 -->
+        <LinearLayout
+            android:id="@+id/layout_pigai_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/pigai_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/init"
+                android:scaleType="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 按钮区域 -->
+    <LinearLayout
+        android:id="@+id/layout_btngrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <!-- 自由识别按钮组 -->
+        <LinearLayout android:orientation="horizontal"
+            android:id="@+id/layout_btngrp_free"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+            <Button
+                android:id="@+id/buttonSubmitEng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yinwen"/>
+            <Button
+                android:id="@+id/buttonSubmitChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/zhongwen"/>
+            <Button
+                android:id="@+id/buttonSubmitFormula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/gognshi"/>
+        </LinearLayout>
+
+        <!-- 批改按钮组 -->
+        <LinearLayout android:orientation="horizontal"
+            android:id="@+id/layout_btngrp_pigai"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp">
+            <Button
+                android:id="@+id/buttonSubmitPigai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shibie"/>
+            <Button
+                android:id="@+id/buttonSubmitNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/xiayti"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

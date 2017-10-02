@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/build/intermediates/res/merged/debug/layout/device_name.xml",
+        "source": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/intermediates/res/merged/debug/layout/device_name.xml",
+        "source": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/build/intermediates/res/merged/debug/layout/input_password_dialog.xml",
+        "source": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/src/main/res/layout/input_password_dialog.xml"
+    },
+    {
+        "merged": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/build/intermediates/res/merged/debug/layout/device_list.xml",
+        "source": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/src/main/res/layout/device_list.xml"
+    },
+    {
+        "merged": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/intermediates/res/merged/debug/layout/input_password_dialog.xml",
+        "source": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/input_password_dialog.xml"
+    },
+    {
+        "merged": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/intermediates/res/merged/debug/layout/device_list.xml",
+        "source": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/device_list.xml"
+    }
+]

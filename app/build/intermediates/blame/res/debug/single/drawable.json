@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/build/intermediates/res/merged/debug/drawable/btn_corner.xml",
+        "source": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/src/main/res/drawable/btn_corner.xml"
+    },
+    {
+        "merged": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/build/intermediates/res/merged/debug/drawable/customborder.xml",
+        "source": "/Users/th0mas/Work/Android/AndroidStudioProjects/hand_writing/app/src/main/res/drawable/customborder.xml"
+    },
+    {
+        "merged": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/intermediates/res/merged/debug/drawable/btn_corner.xml",
+        "source": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable/btn_corner.xml"
+    },
+    {
+        "merged": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/intermediates/res/merged/debug/drawable/customborder.xml",
+        "source": "/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable/customborder.xml"
+    }
+]

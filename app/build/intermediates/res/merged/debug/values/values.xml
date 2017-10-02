@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opt_auto_power_off_time">
+	    <item>1</item>
+	    <item>10</item>
+	    <item>20</item>
+	    <item>30</item>
+	    <item>40</item>
+	</string-array>
+    <string-array name="opt_pen_color_title">
+	    <item>VIOLET</item>
+	    <item>BLUE</item>
+	    <item>GRAY</item>
+	    <item>YELLOW</item>
+	    <item>PINK</item>
+	    <item>MINT</item>
+	    <item>RED</item>
+	    <item>BLACK</item>
+	</string-array>
+    <string-array name="opt_pen_color_value">
+	    <item>-6537267</item>
+	    <item>-12817424</item>
+	    <item>-4342339</item>
+	    <item>-275674</item>
+	    <item>-57212</item>
+	    <item>-14163768</item>
+	    <item>-444912</item>
+	    <item>-16777216</item>
+	</string-array>
+    <string-array name="opt_sensitivity">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	</string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">AI-xue(wbnn)</string>
+    <string name="button_scan">扫描蓝牙设备</string>
+    <string name="connection">连接蓝牙笔</string>
+    <string name="disconnection">断开蓝牙笔</string>
+    <string name="mode_free">自由模式</string>
+    <string name="mode_pigai">批阅模式</string>
+    <string name="none_found">无可用设备</string>
+    <string name="none_paired">无配对设备</string>
+    <string name="pigai_title"> 批改结果</string>
+    <string name="recognition_title">识别结果：</string>
+    <string name="scanning">正在扫描蓝牙设备</string>
+    <string name="select_device">选择设备连接</string>
+    <string name="setting">设置</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="writing_title">书写区域</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

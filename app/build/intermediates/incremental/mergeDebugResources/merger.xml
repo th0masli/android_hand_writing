@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res"/><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/generated/res/rs/debug"/><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/debug/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res"><file name="btn_corner" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable/btn_corner.xml" qualifiers="" type="drawable"/><file name="customborder" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable/customborder.xml" qualifiers="" type="drawable"/><file name="daan" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/daan.png" qualifiers="hdpi-v4" type="drawable"/><file name="error" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/error.png" qualifiers="hdpi-v4" type="drawable"/><file name="gognshi" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/gognshi.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="init" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/init.png" qualifiers="hdpi-v4" type="drawable"/><file name="pigai" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/pigai.png" qualifiers="hdpi-v4" type="drawable"/><file name="progress" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/progress.png" qualifiers="hdpi-v4" type="drawable"/><file name="qingchu" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/qingchu.png" qualifiers="hdpi-v4" type="drawable"/><file name="right" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/right.png" qualifiers="hdpi-v4" type="drawable"/><file name="shibie" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/shibie.png" qualifiers="hdpi-v4" type="drawable"/><file name="shuxei" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/shuxei.png" qualifiers="hdpi-v4" type="drawable"/><file name="timu" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/timu.png" qualifiers="hdpi-v4" type="drawable"/><file name="weizhi" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/weizhi.png" qualifiers="hdpi-v4" type="drawable"/><file name="xiayti" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/xiayti.png" qualifiers="hdpi-v4" type="drawable"/><file name="yinwen" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/yinwen.png" qualifiers="hdpi-v4" type="drawable"/><file name="zhongwen" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/zhongwen.png" qualifiers="hdpi-v4" type="drawable"/><file name="ziyou_shibie" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/drawable-hdpi/ziyou_shibie.png" qualifiers="hdpi-v4" type="drawable"/><file name="activity_main" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="device_list" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/device_list.xml" qualifiers="" type="layout"/><file name="device_name" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/device_name.xml" qualifiers="" type="layout"/><file name="input_password_dialog" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/layout/input_password_dialog.xml" qualifiers="" type="layout"/><file name="main" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/menu/main.xml" qualifiers="" type="menu"/><file path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="opt_sensitivity">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	</string-array><string-array name="opt_auto_power_off_time">
+	    <item>1</item>
+	    <item>10</item>
+	    <item>20</item>
+	    <item>30</item>
+	    <item>40</item>
+	</string-array><string-array name="opt_pen_color_title">
+	    <item>VIOLET</item>
+	    <item>BLUE</item>
+	    <item>GRAY</item>
+	    <item>YELLOW</item>
+	    <item>PINK</item>
+	    <item>MINT</item>
+	    <item>RED</item>
+	    <item>BLACK</item>
+	</string-array><string-array name="opt_pen_color_value">
+	    <item>-6537267</item>
+	    <item>-12817424</item>
+	    <item>-4342339</item>
+	    <item>-275674</item>
+	    <item>-57212</item>
+	    <item>-14163768</item>
+	    <item>-444912</item>
+	    <item>-16777216</item>
+	</string-array></file><file path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/values/strings.xml" qualifiers=""><string name="select_device">选择设备连接</string><string name="writing_title">书写区域</string><string name="setting">设置</string><string name="app_name">AI-xue(wbnn)</string><string name="connection">连接蓝牙笔</string><string name="mode_free">自由模式</string><string name="title_other_devices">其他可用设备</string><string name="none_paired">无配对设备</string><string name="pigai_title"> 批改结果</string><string name="title_paired_devices">已配对设备</string><string name="disconnection">断开蓝牙笔</string><string name="recognition_title">识别结果：</string><string name="none_found">无可用设备</string><string name="scanning">正在扫描蓝牙设备</string><string name="mode_pigai">批阅模式</string><string name="button_scan">扫描蓝牙设备</string></file><file path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file name="pref_settings" path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/main/res/xml/pref_settings.xml" qualifiers="" type="xml"/></source><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/generated/res/rs/debug"/><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/Users/th0mas/courses/applicants1.1/2018Spring/hand_writing/app/src/debug/res"/></dataSet><mergedItems/></merger>

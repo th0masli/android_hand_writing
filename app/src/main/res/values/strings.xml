@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hand_Writing(YaoLi)</string>
+    <string name="connection">Connect Pen</string>
+    <string name="disconnection">Disconnect Pen</string>
+    <string name="mode_free">Freestyle</string>
+    <string name="mode_pigai">Correcting Mode</string>
+    <string name="setting">Settings</string>
+
+
+    <string name="writing_title">Writing Area</string>
+    <string name="pigai_title">Correcting Result: </string>
+    <string name="recognition_title">Recognition Result: </string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning</string>
+    <string name="select_device">Choose Device</string>
+    <string name="none_paired">Non Paired</string>
+    <string name="none_found">Non Available</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Devices</string>
+    <string name="button_scan">Scan Devices</string>
+</resources>
